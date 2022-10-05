@@ -1,0 +1,135 @@
+html, body{
+    overflow-x: hidden;
+}
+
+.navbar .nav li a:hover{
+    text-decoration: underline;
+}
+
+.active{
+    border-bottom: solid 3px rgb(38, 181, 179);
+}
+
+.section-1{
+    width: 45%;
+    padding: 2.5rem;
+    margin-left: 7rem;
+}
+
+.section-2{
+    width: 90%;
+    padding: 2.5rem;
+    margin-left: 3rem;
+    background: linear-gradient(to right, #ffffff, rgb(46, 219, 216));
+    border-radius: 8px;
+}
+
+.section-4{
+    width: 45%;
+    padding: 2.5rem;
+    margin-right: 4rem;
+}
+
+.section-footer .col-8{
+    border-right: solid 1px white;
+}
+
+.section-6{
+    height: 450px;
+}
+
+.mivi{
+    top: -15%;
+    border-radius: 50%;
+    border: 3px;
+    background-color: rgb(247, 247, 247);
+    z-index: 9999;
+}
+
+
+@media (max-width: 992px){  
+    .section-1{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section-2{
+        width: 100%;
+        margin: auto;
+        margin-left: 0;
+    }
+
+    .section-4{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 767px){
+    .section-8{
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width: 576px){
+    .section-5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-5 .col-6{
+        text-align: center;
+    }
+
+    .section-0{
+        width: 100%;
+    }
+
+    .section-0 h1{
+        font-size: 1.5rem;
+    }
+
+    .section-0 button{
+        padding: 0;
+    }
+
+    .section-image img{
+        height: 30vh;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .section-image-porta img{
+        height: 20vh;
+        object-fit: cover;
+    }
+
+    .section-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-6{
+        height: 280px;
+    }
+    .tema-principal p, .parrafo-grande p{
+        text-align: justify;
+    }
+}
+
+@media (max-width: 373px){
+    .section-1, .section-2, .section-4, .section-7{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-footer .col-8{
+        border-bottom: solid 1px white;
+        border-right: none;
+        margin: 1rem 0;
+    }
+    .valores{
+        padding-top: 4rem;
+    }
+}
+
